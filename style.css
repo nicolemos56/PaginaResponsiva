@@ -57,16 +57,17 @@ header .itens a{
     background-color: grey;
 }
 
- @media screen and (max-width: 700px) {
+ @media screen and (min-width:320px) and (max-width: 800px) {
 body{
-    font-size: 35px;
+
+    
     
 }
 header .navbar,
 header  .itens{
     display: flex;
     justify-content: center;
-
+   font-size: 4pt;
 }
 .container{
     padding:10px;
@@ -76,7 +77,8 @@ header  .itens{
    padding: 10px;
 }
 .galeria img{
-width: 100%;
+    min-width: 43px;
+    max-width: 135px;
 height: auto;
 }
 
